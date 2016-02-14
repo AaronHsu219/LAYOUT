@@ -1,0 +1,14 @@
+  img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  @media screen and (max-width: 500px) {
+    .col-4 {
+      clear: left;
+      width: 100%
+    }
+    img {
+      width: 100%
+    }
+  }

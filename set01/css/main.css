@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+[class^="button-"] {
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 7.5px 12px;
+  font-size: 14px;
+  border: 1px solid #a6a6a6;
+}
+
+.button-prime {
+  color: #ffffff;
+  background-color: #6699ff;
+}
+
+.button-prime:hover {
+  background-color: #1a66ff;
+}
+
+.button-info {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.button-info:hover {
+  background-color: #e6e6e6;
+}
