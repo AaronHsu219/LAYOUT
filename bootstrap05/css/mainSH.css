@@ -3,15 +3,15 @@
 /* Base */
 
 html {
-  font-family: "Ropa Sans", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  /*  font-family: "Ropa Sans", sans-serif;*/
+  /*  font-size: 16px;*/
+  /*  line-height: 1.5;*/
 }
 body {
-  background-color: rgb(240, 240, 240);
-  color: rgb(0, 0, 0);
-  min-width: 960px;
-  padding-top: 240px;
+  /*  background-color: rgb(240, 240, 240);*/
+  /*  color: rgb(0, 0, 0);*/
+  /*  min-width: 960px;*/
+  /*  padding-top: 240px;*/
 }
 h1,
 h2,
@@ -36,7 +36,7 @@ img {
 .dummy {
   margin: 0 auto;
   max-width: 32em;
-  padding: 6em 0;
+  /*  padding: 6em 0;*/
 }
 
 /*
@@ -48,11 +48,13 @@ img {
 
 .page-header {
   background-color: rgb(255, 255, 255);
-  position: absolute;
+  /*    position: absolute;*/
   width: 100%;
   /*  min-width: 960px;*/
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+  /*  +++++++++++++  */
+  overflow: auto;
 }
 
 /* スティッキー状態のスタイル */
@@ -63,7 +65,8 @@ img {
 }
 .page-header > .inner {
   margin: auto;
-  width: 960px;
+  /*  width: 960px;*/
+  max-width: 960px;
 }
 .no-boxshadow .page-header {
   border-bottom: 1px solid rgb(204, 204, 204);
@@ -83,6 +86,7 @@ img {
   line-height: 65px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  display: inline-block;
 }
 .primary-nav li {
   float: left;
@@ -94,4 +98,20 @@ img {
 }
 .primary-nav a:hover {
   background-color: rgb(240, 240, 240);
+}
+
+/* media query*/
+
+@media screen and (max-width: 600px) {
+  .inner {
+    text-align: center;
+  }
+  .site-logo {
+    float: none;
+    margin: 0 auto;
+  }
+  .primary-nav {
+    float: none;
+    margin: 0 auto;
+  }
 }
