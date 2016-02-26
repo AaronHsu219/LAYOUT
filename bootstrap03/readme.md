@@ -5,6 +5,6 @@
 * myStyle - css that created by me
 
 ## js
-* main - js for carousel header
+* main - js for carousel (course material)
 
 ## index.html 
