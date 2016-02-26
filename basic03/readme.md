@@ -5,6 +5,6 @@
 * myStyle - css that created by me
 
 ## js
-
+* main - js for carousel and sticky header
 
 ## index.html 

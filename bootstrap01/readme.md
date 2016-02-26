@@ -1,10 +1,6 @@
-# basic03
-## CSS
-* mainCS - css for carousol (course material) 
-* mainSH - css for sticky header (course material)
+# bootstrap01
+## styles
+* main - css for banner (course material) 
 * myStyle - css that created by me
-
-## js
-
 
 ## index.html 
